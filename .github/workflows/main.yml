@@ -23,5 +23,4 @@ jobs:
         with:
           context: .
           push: true
-          # မင်းရဲ့ Docker Hub Username နဲ့ Image Name ကို ပြောင်းပေးပါ
           tags: ${{ secrets.DOCKER_USERNAME }}/node-express-app:latest
